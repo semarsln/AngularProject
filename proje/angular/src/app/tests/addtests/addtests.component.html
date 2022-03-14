@@ -1,0 +1,65 @@
+<mat-card>
+    <mat-card-title>Add Tests</mat-card-title>
+    <form>
+      <mat-card-content>
+        <div fxLayout="row wrap">
+          <div class="mb-1">
+            
+      <mat-form-field  style="width: 100%">
+        <mat-label>test category</mat-label>
+        <mat-select #mode value="side">
+          <mat-option value="side">angular</mat-option>
+          <mat-option value="over">python</mat-option>
+          <mat-option value="push">java</mat-option>
+          <mat-option value="push">php</mat-option>
+        </mat-select>
+      </mat-form-field>
+ 
+            
+              
+          </div>
+        </div>
+  
+        <div class="mb-1">
+          <mat-form-field style="width: 100%">
+            <input matInput placeholder="Question"  type="email">
+          </mat-form-field>
+        
+        </div>
+  
+        <div class="mb-1">
+          <mat-form-field style="width: 100%">
+            <input matInput placeholder="Option A"  type="option">
+          </mat-form-field>
+         
+        </div>
+  
+        <div class="mb-1">
+          <mat-form-field style="width: 100%">
+            <input matInput placeholder="Option B"  type="option">
+          </mat-form-field>
+         
+        </div>
+        
+        <div class="mb-1">
+          <mat-form-field style="width: 100%">
+            <input matInput placeholder="Option C"  type="option">
+          </mat-form-field>
+         
+        </div>
+        
+        <div class="mb-1">
+          <mat-form-field style="width: 100%">
+            <input matInput placeholder="Option D"  type="option">
+          </mat-form-field>
+         
+        </div>
+        
+      </mat-card-content>
+      <hr>
+      <mat-card-actions class="px-1">
+        <button mat-raised-button color="primary" type="submit" >Submit</button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+  

@@ -1,0 +1,9 @@
+<button mat-raised-button color="warn" style="left:980px" [routerLink]="['/candidates/addcandidates']" >Add Candidates</button>
+<mat-form-field style="width: 100%" class="mb-1">
+  
+  <input matInput placeholder="Type to filter the name column..." required (keyup)='updateFilter($event)'>
+</mat-form-field>
+
+<ngx-datatable class='material' [columns]="columns" [columnMode]="'force'" [headerHeight]="50" [footerHeight]="50"
+  [rowHeight]="'auto'" [limit]="10" [rows]='rows'>
+</ngx-datatable>
