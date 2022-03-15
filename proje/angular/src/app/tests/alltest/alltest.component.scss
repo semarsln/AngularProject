@@ -1,8 +1,12 @@
-.example-headers-align .mat-expansion-panel-header-title,
-.example-headers-align .mat-expansion-panel-header-description {
-flex-basis: 0;
-}
-.example-headers-align .mat-expansion-panel-header-description {
-justify-content: space-between;
-align-items: center;
-}
+@media all and (min-width: 768px) {
+    tr  {
+      td {
+        vertical-align: middle !important;
+      }
+      span {
+        &:not([class]) {
+          padding: 1rem 1rem;
+        }
+      }
+    }
+  }

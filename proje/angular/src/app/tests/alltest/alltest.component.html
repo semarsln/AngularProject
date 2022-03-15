@@ -2,54 +2,60 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
 <body>
+   
+    <div class="card-body">
+      <div id="table" class="table-editable">
 
+        <table class="table table-bordered table-responsive-md table-striped text-center">
+          <tr>
+            <th class="text-center">Category</th>
+            <th class="text-center">Question</th>
+            <th class="text-center">Actions</th>
 
-    <mat-card>
+          </tr>
+          <tr *ngFor="let person of personList; let id = index">
+            <td>
+              <span (keyup)="changeValue(id, 'category', $event)" (blur)="updateList(id, 'category', $event)"
+                contenteditable="true">{{person.category}}</span>
+            </td>
+            <td>
+              <span contenteditable="true" (keyup)="changeValue(id, 'question', $event)"
+                (blur)="updateList(id, 'question', $event)">{{person.question}}</span>
+            </td>
+            <td>
+            <div class="btn-group btn-group-sm">
+              <button type="button" class="btn btn-primary" style="background-color:#2F4F4F;"   [routerLink]="['/tests/edittests']"><mat-icon >remove_red_eye</mat-icon></button>
+              <button type="button"  class="btn btn-primary" style="background-color: #A9A9A9;"  [routerLink]="['/tests/edittests']"><mat-icon>edit</mat-icon></button>
+              <button type="button" class="btn btn-primary"  style="background-color:#DEB887;" [routerLink]="['/tests/addtests']"><mat-icon>add</mat-icon></button>
+              <button type="button" class="btn btn-primary" [routerLink]="['/tests/edittests']"><mat-icon>delete</mat-icon></button>
+          </div>
+            
+            </td>
+               
+          </tr>
+   
 
-        <form>
-            <mat-card-content>
-                <div class="container" style="width: 60%; margin-left:250px" class="mb-1">
-                    <table class="table table-striped table-bordered">
-                        <thead style="width: 60%; margin-left:250px">
-                            <tr>
-                                <th>test no</th>
-                                <th>test category</th>
-                                <th>Question</th>
-                                <th style=" margin-left:290px">Add</th>
-                                <th style=" margin-left:200px">Edit</th>
-                                <th style=" margin-left:200px">Delete</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr *ngFor="let user of users" style="width: 60%; margin-left:250px">
-                                <td>{{user.no}} </td>
-                                <td>{{user.category}}</td>
-                                <td>{{user.question}}</td>
-                                <td> <button style="margin-left:35px" mat-raised-button color="primary" type="submit"
-                                        [routerLink]="['/tests/addtests']"><i class="fa fa-plus"
-                                            style="width: 30px;"></i>Add</button></td>
-                                <td> <button style="margin-left:40px" mat-raised-button color="primary" type="submit"
-                                        [routerLink]="['/tests/edittests']"><i class="fa fa-edit"
-                                            style="width: 30px;"></i>Edit</button></td>
-                                <td> <button style="margin-left:40px" mat-raised-button color="primary" type="submit"
-                                        [routerLink]="['/tests/alltests']"><i class="fa fa-trash"
-                                            style="width: 30px;"></i>delete</button>
-                                </td>
+        </table>
+      </div>
+    </div>
+  
 
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </mat-card-content>
-        </form>
-    </mat-card>
 
 </body>
 
