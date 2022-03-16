@@ -1,9 +1,42 @@
-<button mat-raised-button color="warn" style="left:980px" [routerLink]="['/candidates/addcandidates']" >Add Candidates</button>
+<button mat-raised-button type="submit" class="btn1" [routerLink]="['/candidates/allcandidates']"><mat-icon style="margin-right:7px;">add</mat-icon>new candidate</button>
 <mat-form-field style="width: 100%" class="mb-1">
-  
   <input matInput placeholder="Type to filter the name column..." required (keyup)='updateFilter($event)'>
 </mat-form-field>
-
 <ngx-datatable class='material' [columns]="columns" [columnMode]="'force'" [headerHeight]="50" [footerHeight]="50"
   [rowHeight]="'auto'" [limit]="10" [rows]='rows'>
+  <ngx-datatable-column name="name" [width]="10">
+    <ng-template ngx-datatable-cell-template let-value="value" let-row="row">
+      <span title="Double click to edit" (dblclick)="editing[row.$$index + '-name'] = true"
+        *ngIf="!editing[row.$$index + '-name']">
+        {{value}}
+      </span>
+      <input autofocus (blur)="updateValue($event, 'name', value, row)" *ngIf="editing[row.$$index + '-name']"
+        type="text" [value]="value" />
+    </ng-template>
+  </ngx-datatable-column>
+
+  <ngx-datatable-column name="email" [width]="500">
+    <ng-template ngx-datatable-cell-template let-row="row" let-value="value">
+      <span title="Double click to edit" (dblclick)="editing[row.$$index + 'email'] = true"
+        *ngIf="!editing[row.$$index + 'email']">
+        {{value}}
+      </span>
+      <select *ngIf="editing[row.$$index + '-email']" (change)="updateValue($event, 'email', value, row)"
+        [value]="value">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </ng-template>
+  </ngx-datatable-column>
+
+  <ngx-datatable-column name="Actions" [width]="10">
+    <ng-template ngx-datatable-cell-template let-value="value">
+       <button type="button" class="btn btn-default btn-circle btn-sm" style=" border-radius: 50%; margin-right: 10px;"
+        [routerLink]="['/tests/edittests']"><mat-icon>edit</mat-icon></button>
+
+      <button type="button" class="btn btn-info btn-circle btn-sm" style=" border-radius: 50%;"
+        [routerLink]="['/tests/edittests']"><mat-icon>delete_forever</mat-icon></button>
+
+    </ng-template>
+  </ngx-datatable-column>
 </ngx-datatable>

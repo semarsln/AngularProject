@@ -1,505 +1,310 @@
 [
     {
-        "name": "Ethel Price",
-        "gender": "female",
-        "company": "My company name is very long and funny because funny is fun",
-        "age": 22
+        "category": "php",
+        "question": "What are the common uses of PHP"
     },
     {
-        "name": "Claudine Neal",
-        "gender": "female",
-        "company": "Sealoud",
-        "age": 55
+        "category": "java",
+        "question": "Why is Java not a pure object oriented language? ."
     },
     {
-        "name": "Beryl Rice",
-        "gender": "female",
-        "company": "Velity",
-        "age": 67
+        "category": "angular",
+        "question": "Why were client-side frameworks like Angular introduced?"
     },
     {
-        "name": "Wilder Gonzales",
-        "gender": "male",
-        "company": "Geekko"
+        "category": "javascript",
+        "question": "Enumerate the differences between Java and JavaScript?"
     },
     {
-        "name": "Georgina Schultz",
-        "gender": "female",
-        "company": "Suretech"
+        "category": "python",
+        "question": "What is a dynamically typed language?"
     },
     {
-        "name": "Carroll Buchanan",
-        "gender": "male",
-        "company": "Ecosys"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Valarie Atkinson",
-        "gender": "female",
-        "company": "Hopeli"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Schroeder Mathews",
-        "gender": "male",
-        "company": "Polarium"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Lynda Mendoza",
-        "gender": "female",
-        "company": "Dogspa"
+        "category": "Lynda Mendoza",
+        "question": "female"
     },
     {
-        "name": "Sarah Massey",
-        "gender": "female",
-        "company": "Bisba"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Robles Boyle",
-        "gender": "male",
-        "company": "Comtract"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Evans Hickman",
-        "gender": "male",
-        "company": "Parleynet"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Dawson Barber",
-        "gender": "male",
-        "company": "Dymi"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Bruce Strong",
-        "gender": "male",
-        "company": "Xyqag"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Nellie Whitfield",
-        "gender": "female",
-        "company": "Exospace"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Jackson Macias",
-        "gender": "male",
-        "company": "Aquamate"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Pena Pena",
-        "gender": "male",
-        "company": "Quarx"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Lelia Gates",
-        "gender": "female",
-        "company": "Proxsoft"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Letitia Vasquez",
-        "gender": "female",
-        "company": "Slumberia"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Trevino Moreno",
-        "gender": "male",
-        "company": "Conjurica"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Barr Page",
-        "gender": "male",
-        "company": "Apex"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Kirkland Merrill",
-        "gender": "male",
-        "company": "Utara"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Blanche Conley",
-        "gender": "female",
-        "company": "Imkan"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Atkins Dunlap",
-        "gender": "male",
-        "company": "Comveyor"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Everett Foreman",
-        "gender": "male",
-        "company": "Maineland"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Gould Randolph",
-        "gender": "male",
-        "company": "Intergeek"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Kelli Leon",
-        "gender": "female",
-        "company": "Verbus"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Freda Mason",
-        "gender": "female",
-        "company": "Accidency"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Tucker Maxwell",
-        "gender": "male",
-        "company": "Lumbrex"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Yvonne Parsons",
-        "gender": "female",
-        "company": "Zolar"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Woods Key",
-        "gender": "male",
-        "company": "Bedder"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Stephens Reilly",
-        "gender": "male",
-        "company": "Acusage"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Mcfarland Sparks",
-        "gender": "male",
-        "company": "Comvey"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Jocelyn Sawyer",
-        "gender": "female",
-        "company": "Fortean"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Renee Barr",
-        "gender": "female",
-        "company": "Kiggle"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Gaines Beck",
-        "gender": "male",
-        "company": "Sequitur"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Luisa Farrell",
-        "gender": "female",
-        "company": "Cinesanct"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Robyn Strickland",
-        "gender": "female",
-        "company": "Obones"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Roseann Jarvis",
-        "gender": "female",
-        "company": "Aquazure"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Johnston Park",
-        "gender": "male",
-        "company": "Netur"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Wong Craft",
-        "gender": "male",
-        "company": "Opticall"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Merritt Cole",
-        "gender": "male",
-        "company": "Techtrix"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Dale Byrd",
-        "gender": "female",
-        "company": "Kneedles"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Sara Delgado",
-        "gender": "female",
-        "company": "Netagy"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Alisha Myers",
-        "gender": "female",
-        "company": "Intradisk"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Felecia Smith",
-        "gender": "female",
-        "company": "Futurity"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Neal Harvey",
-        "gender": "male",
-        "company": "Pyramax"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Nola Miles",
-        "gender": "female",
-        "company": "Sonique"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Herring Pierce",
-        "gender": "male",
-        "company": "Geeketron"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Shelley Rodriquez",
-        "gender": "female",
-        "company": "Bostonic"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Cora Chase",
-        "gender": "female",
-        "company": "Isonus"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Mckay Santos",
-        "gender": "male",
-        "company": "Amtas"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Hilda Crane",
-        "gender": "female",
-        "company": "Jumpstack"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Jeanne Lindsay",
-        "gender": "female",
-        "company": "Genesynk"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Frye Sharpe",
-        "gender": "male",
-        "company": "Eplode"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Velma Fry",
-        "gender": "female",
-        "company": "Ronelon"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Reyna Espinoza",
-        "gender": "female",
-        "company": "Prismatic"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Spencer Sloan",
-        "gender": "male",
-        "company": "Comverges"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Graham Marsh",
-        "gender": "male",
-        "company": "Medifax"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Hale Boone",
-        "gender": "male",
-        "company": "Digial"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Wiley Hubbard",
-        "gender": "male",
-        "company": "Zensus"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Blackburn Drake",
-        "gender": "male",
-        "company": "Frenex"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Franco Hunter",
-        "gender": "male",
-        "company": "Rockabye"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Barnett Case",
-        "gender": "male",
-        "company": "Norali"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Alexander Foley",
-        "gender": "male",
-        "company": "Geekosis"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Lynette Stein",
-        "gender": "female",
-        "company": "Macronaut"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Anthony Joyner",
-        "gender": "male",
-        "company": "Senmei"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Garrett Brennan",
-        "gender": "male",
-        "company": "Bluegrain"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Betsy Horton",
-        "gender": "female",
-        "company": "Zilla"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Patton Small",
-        "gender": "male",
-        "company": "Genmex"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Lakisha Huber",
-        "gender": "female",
-        "company": "Insource"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Lindsay Avery",
-        "gender": "female",
-        "company": "Unq"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Ayers Hood",
-        "gender": "male",
-        "company": "Accuprint"
+        "category": "R",
+        "question": "female"
     },
     {
-        "name": "Torres Durham",
-        "gender": "male",
-        "company": "Uplinx"
+        "category": "github",
+        "question": "male"
     },
     {
-        "name": "Vincent Hernandez",
-        "gender": "male",
-        "company": "Talendula"
+        "category": "python",
+        "question": "female"
     },
     {
-        "name": "Baird Ryan",
-        "gender": "male",
-        "company": "Aquasseur"
+        "category": "C",
+        "question": "male"
     },
     {
-        "name": "Georgia Mercer",
-        "gender": "female",
-        "company": "Skyplex"
-    },
-    {
-        "name": "Francesca Elliott",
-        "gender": "female",
-        "company": "Nspire"
-    },
-    {
-        "name": "Lyons Peters",
-        "gender": "male",
-        "company": "Quinex"
-    },
-    {
-        "name": "Kristi Brewer",
-        "gender": "female",
-        "company": "Oronoko"
-    },
-    {
-        "name": "Tonya Bray",
-        "gender": "female",
-        "company": "Insuron"
-    },
-    {
-        "name": "Valenzuela Huff",
-        "gender": "male",
-        "company": "Applideck"
-    },
-    {
-        "name": "Tiffany Anderson",
-        "gender": "female",
-        "company": "Zanymax"
-    },
-    {
-        "name": "Jerri King",
-        "gender": "female",
-        "company": "Eventex"
-    },
-    {
-        "name": "Rocha Meadows",
-        "gender": "male",
-        "company": "Goko"
-    },
-    {
-        "name": "Marcy Green",
-        "gender": "female",
-        "company": "Pharmex"
-    },
-    {
-        "name": "Kirk Cross",
-        "gender": "male",
-        "company": "Portico"
-    },
-    {
-        "name": "Hattie Mullen",
-        "gender": "female",
-        "company": "Zilencio"
-    },
-    {
-        "name": "Deann Bridges",
-        "gender": "female",
-        "company": "Equitox"
-    },
-    {
-        "name": "Chaney Roach",
-        "gender": "male",
-        "company": "Qualitern"
-    },
-    {
-        "name": "Consuelo Dickson",
-        "gender": "female",
-        "company": "Poshome"
-    },
-    {
-        "name": "Billie Rowe",
-        "gender": "female",
-        "company": "Cemention"
-    },
-    {
-        "name": "Bean Donovan",
-        "gender": "male",
-        "company": "Mantro"
-    },
-    {
-        "name": "Lancaster Patel",
-        "gender": "male",
-        "company": "Krog"
-    },
-    {
-        "name": "Rosa Dyer",
-        "gender": "female",
-        "company": "Netility"
-    },
-    {
-        "name": "Christine Compton",
-        "gender": "female",
-        "company": "Bleeko"
-    },
-    {
-        "name": "Milagros Finch",
-        "gender": "female",
-        "company": "Handshake"
-    },
-    {
-        "name": "Ericka Alvarado",
-        "gender": "female",
-        "company": "Lyrichord"
-    },
-    {
-        "name": "Sylvia Sosa",
-        "gender": "female",
-        "company": "Circum"
-    },
-    {
-        "name": "Humphrey Curtis",
-        "gender": "male",
-        "company": "Corepan"
+        "category": "R",
+        "question": "female"
     }
 ]

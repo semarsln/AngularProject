@@ -1,13 +1,14 @@
 <mat-card>
     <mat-card-title>Add Tests</mat-card-title>
+    <br>
     <form>
       <mat-card-content>
         <div fxLayout="row wrap">
           <div class="mb-1">
             
       <mat-form-field  style="width: 100%">
-        <mat-label>test category</mat-label>
-        <mat-select #mode value="side">
+        <input matInput placeholder="Category">
+        <mat-select #mode value="Category">
           <mat-option value="side">angular</mat-option>
           <mat-option value="over">python</mat-option>
           <mat-option value="push">java</mat-option>
@@ -58,7 +59,9 @@
       </mat-card-content>
       <hr>
       <mat-card-actions class="px-1">
-        <button mat-raised-button color="primary" type="submit" >Submit</button>
+        <div class="wrap">
+          <button mat-raised-button type="submit" class="btn1" [routerLink]="['/tests/alltests']"><mat-icon style="margin-right:3px;">done</mat-icon>Save</button>
+        </div>
       </mat-card-actions>
     </form>
   </mat-card>

@@ -8,3 +8,13 @@
 @import "scss/core";
 @import "scss/material";
 @import "scss/utilities/utilities";
+mat-toolbar.main-header .branding {
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: auto 0;
+    line-height: 50px;
+    padding: 0px 27px 0 16px;
+}

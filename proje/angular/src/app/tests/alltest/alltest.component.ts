@@ -8,41 +8,39 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class AlltestComponent{
-  editField: string;
+  rows = [];
+  editing = {};
+  temp = [];
+  columns = [];
  
 
-  personList: Array<any> = [
-    { id: 1, category: 'c', question: "Specify different types of decision control statements?", },
-    { id: 2, category: 'python', question: "What is a dynamically typed language?", },
-    { id: 3, category: 'php', question: "What is the difference between static and dynamic websites?", },
-    { id: 4, category: 'java', question: "What do you understand by an instance variable and a local variable?",  },
-    { id: 5, category: 'Angular', question: "Why were client-side frameworks like Angular introduced?",  },
-  ];
-
-  awaitingPersonList: Array<any> = [
-    { id: 6, category: 'George Vega', question: 28 },
-    { id: 7, category: 'Mike Low', question: 22 },
-    { id: 8, category: 'John Derp', question: 36 },
-    { id: 9, category: 'Anastasia John', question: 21 },
-    { id: 10, category: 'John Maklowicz', question: 36},
-  ];
-
-  updateList(id: number, property: string, event: any) {
-    const editField = event.target.textContent;
-    this.personList[id][property] = editField;
+  constructor() {
+    this.fetch(data => {
+      // cache our list
+      this.temp = [...data];
+      // push our inital complete list
+      this.rows = data;
+    });
   }
 
+  fetch(cb) {
+    const req = new XMLHttpRequest();
+    req.open("GET", `assets/data/100k.json`);
 
+    req.onload = () => {
+      cb(JSON.parse(req.response));
+    };
 
-  add() {
-    if (this.awaitingPersonList.length > 0) {
-      const person = this.awaitingPersonList[0];
-      this.personList.push(person);
-      this.awaitingPersonList.splice(0, 1);
-    }
+    req.send();
   }
 
-  changeValue(id: number, property: string, event: any) {
-    this.editField = event.target.textContent;
+  updateFilter(event) {
+    const val = event.target.value.toLowerCase();
+    // filter our data
+    const temp = this.temp.filter(d => {
+      return d.email.toLowerCase().indexOf(val) !== -1 || !val;
+    });
+    // update the rows
+    this.rows = temp;
   }
 }

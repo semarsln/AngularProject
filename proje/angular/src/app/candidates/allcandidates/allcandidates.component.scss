@@ -3,6 +3,79 @@
 .datatable.fixed-header .datatable-header .datatable-header-inner {
   height: 100%;
 }
-.btn {
-  margin-right: 4px;
+.btn1{
+  background-color: limegreen;
+  margin-left: 950px;
+  
+}
+.btn-primary{
+  transition-duration: 0.4s;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(161, 161, 161)
+
+}
+
+.btn-primary:hover {
+  background-color: #0043fc; /* Green */
+  color: rgb(0, 0, 0);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid #0043fc
+}
+
+.btn-default{
+  transition-duration: 0.4s;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(161, 161, 161)
+}
+
+.btn-default:hover {
+  background-color: #fdfa43; /* Green */
+  color: rgb(0, 0, 0);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid #fdfa43;
+}
+
+.btn-info{
+  transition-duration: 0.4s;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(161, 161, 161)
+}
+
+.btn-info:hover {
+  background-color: #ca0606; /* Green */
+  color: rgb(255, 228, 228);
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: 2px solid #ca0606;
+}
+
+.material-icons {
+  
+  position: relative;
+display: inline-flex;
+width: 5px;
+height:-2px;
+font-size: 16px;
+
+align-items: center;
+justify-content: center;
+}
+.btn1{
+  margin-top: 15px;
+  color: white;
 }

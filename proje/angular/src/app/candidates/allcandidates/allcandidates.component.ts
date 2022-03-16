@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AllcandidatesComponent  {
   rows = [];
-
+  editing = {};
   temp = [];
-
-  columns = [{ prop: "name" }, { name: "Company" }, { name: "Gender" }];
+  columns=[];
+ 
 
   constructor() {
     this.fetch(data => {
@@ -23,7 +23,7 @@ export class AllcandidatesComponent  {
 
   fetch(cb) {
     const req = new XMLHttpRequest();
-    req.open("GET", `assets/data/company.json`);
+    req.open("GET", `assets/data/100k.json`);
 
     req.onload = () => {
       cb(JSON.parse(req.response));
@@ -36,7 +36,7 @@ export class AllcandidatesComponent  {
     const val = event.target.value.toLowerCase();
     // filter our data
     const temp = this.temp.filter(d => {
-      return d.name.toLowerCase().indexOf(val) !== -1 || !val;
+      return d.email.toLowerCase().indexOf(val) !== -1 || !val;
     });
     // update the rows
     this.rows = temp;

@@ -18,7 +18,7 @@ export class MenuService {
         items: [
           { link: "/tests/addtests",icon:"add_box", label: this.translate.instant("add tests") },
           { link: "/tests/alltests",icon:"account_circle", label: this.translate.instant("all tests") },
-          { link: "/tests/edittests",icon:"edit", label: this.translate.instant("edit tests") },
+         
          
          
         ]},
