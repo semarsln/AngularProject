@@ -5,7 +5,7 @@ import {
   LayoutComponent,
   MenuComponent,
   NotificationComponent,
-  OptionsComponent,
+  //OptionsComponent,
   SidebarComponent,} from "./core";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { MultilevelMenuService, NgMaterialMultilevelMenuModule } from "ng-material-multilevel-menu";
@@ -76,7 +76,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     HeaderComponent,
     SidebarComponent,
     NotificationComponent,
-    OptionsComponent,
+    //OptionsComponent,
     MenuComponent,
     AdminLayoutComponent,
     LayoutComponent,
