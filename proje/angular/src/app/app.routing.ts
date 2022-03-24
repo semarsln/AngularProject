@@ -4,7 +4,7 @@ import { GeneratepasswordComponent } from './generatepassword/generatepassword.c
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 import { ForgotComponent } from './forgot/forgot.component';
-
+import { ExamComponent } from './exam/exam.component';
 export const AppRoutes: Routes = [
   
     
@@ -14,6 +14,12 @@ export const AppRoutes: Routes = [
    
 
    },
+   {
+    path:"exam",
+   component:ExamComponent
+ 
+
+ },
    
    {
     path:"forgot",

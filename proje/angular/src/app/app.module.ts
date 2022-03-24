@@ -56,6 +56,7 @@ import { SignupComponent } from './signup/signup.component';
 import { ForgotComponent } from './forgot/forgot.component';
 import { CommonModule } from "@angular/common";
 import { NgxDatatableModule } from "@swimlane/ngx-datatable";
+import { ExamComponent } from './exam/exam.component';
 
 
 
@@ -85,6 +86,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     SigninComponent,
     SignupComponent,
     ForgotComponent,
+    ExamComponent,
   
   
    
